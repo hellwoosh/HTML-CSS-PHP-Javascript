@@ -1,0 +1,60 @@
+body {
+    margin: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    background: url("../images/fon.jpg") center no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(200, 223, 139, .7);
+    border-radius: 20px;
+
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 200px 20px;
+}
+
+.auth__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.auth__item input {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.auth button {
+    height: 35px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 100px;
+    border-radius: 20px;
+    border: none;
+}

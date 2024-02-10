@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    background: url("../images/fon.jpg") center no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+*,
+*:after,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: rgb(200, 223, 139, .7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container input {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.ModalBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+.ModalAddendum3 {
+    top: 25%;
+    left: 26%;
+    right: 26%;
+    bottom: 10%;
+    height: 300px;
+    width: 900px;
+    position: fixed;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #0F2232;
+    background-color: #E9ECEE;
+    z-index: 99998;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+
+}
+
+.modalAuth {
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    bottom: 10%;
+    height: 200px;
+    width: 800px;
+    position: fixed;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #0F2232;
+    background-color: #E9ECEE;
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+
+.modalAuth:target {
+
+    pointer-events: auto;
+}
+
+.modalAuth>div {
+
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.ModalAddendum2 {
+    top: 25%;
+    left: 25%;
+    right: 20%;
+    bottom: 10%;
+    height: 300px;
+    width: 900px;
+    position: fixed;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #0F2232;
+    background-color: #E9ECEE;
+    z-index: 99998;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.resetpass__text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.resetpass__form {
+    margin-bottom: 15px;
+}
